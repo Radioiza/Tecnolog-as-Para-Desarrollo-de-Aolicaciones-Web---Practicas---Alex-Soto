@@ -1,0 +1,73 @@
+/* Fondo negro y letras blancas */
+body {
+    background-color: black; /* Fondo negro */
+    color: white; /* Letras blancas */
+    font-family: Arial, sans-serif; /* Fuente legible */
+    margin: 0;
+    padding: 0;
+}
+
+/* Centrando H1 y H2 */
+h1, h2 {
+    text-align: center; /* Centra el texto */
+    color: white; /* Asegura que el color sea blanco */
+    margin: 20px 0; /* Espacio superior e inferior */
+}
+
+/* Diseño para los artículos */
+article {
+    width: 90%;
+    border: 2px solid white; /* Bordes blancos para contraste */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%; /* Espacio entre los divs */
+    margin: 20px auto; /* Centra el artículo horizontalmente */
+    padding: 10px;
+    background-color: #1a1a1a; /* Fondo gris oscuro para contraste */
+}
+
+/* Diseño para los divs dentro del artículo */
+div {
+    width: 45%;
+    border: solid white; /* Bordes blancos */
+    overflow: hidden;
+    height: 30vh; /* Altura uniforme */
+    margin-bottom: 15px; /* Espacio entre filas */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido */
+    background-color: #2a2a2a; /* Fondo gris oscuro para los divs */
+}
+
+/* Imágenes y iframes dentro de los divs */
+div > img, div > iframe {
+    width: 100%; /* Ocupa todo el ancho del div */
+    height: 100%; /* Ocupa todo el alto del div */
+    object-fit: cover; /* Ajusta la escala */
+    border: none; /* Sin bordes adicionales */
+}
+
+/* Quitar bordes de divs vacíos */
+div:empty {
+    border: none;
+}
+
+/* Estilo adicional para listas dentro de artículos */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    color: white; /* Letras blancas en las listas */
+}
+
+/* Estilo para enlaces si hay */
+a {
+    color: #4caf50; /* Verde brillante */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

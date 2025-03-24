@@ -1,0 +1,199 @@
+header {
+    text-align: center; /* Centra todo el contenido dentro del header */
+    padding: 20px; /* Espacio alrededor del header */
+}
+header img {
+    border: 2px solid black;
+    max-width: 30%; /* Limita el ancho de la imagen al 30% */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita que la imagen sea tratada como contenido inline */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+h1{
+    font-size: 70px;
+
+}
+h2 {
+    font-size: 40px;
+    background-color: rgb(191, 148, 144);
+    color: #FFFFFF; /* Color de letra blanco */
+    border: 3px solid #000000; /* Borde negro de 2 píxeles */
+    padding: 10px; /* Espacio interno para separar el borde del texto */
+    width: fit-content; /* Ajusta el ancho al contenido */
+    margin: 0 auto; /* Centra el elemento horizontalmente */
+    text-align: center; /* (Opcional) Centrar el texto */
+}
+
+body {
+
+    background-color: rgb(213, 194, 194);  /* Fondo  para toda la página */
+    color: #000000; /* Color de texto negro para mejor contraste */
+    font-family: 'Times New Roman', serif; /* Fuente para el texto */
+}
+section {
+    border: 5px solid #000000;
+    margin: 50px 0; /* Espacio entre secciones */
+    padding: 200px; /* Espacio interno */
+    background-color: #0000001a; /* Fondo blanco con transparencia para las secciones */
+}
+/* CIENCIA FICC */
+.cf h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.cf img {
+    border:5px solid rgb(0, 0, 0);
+    padding: 1px;
+    width: fit-content;
+    width: 40%; /* Cambia el valor al porcentaje o píxeles que necesites */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Para tratar la imagen como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.cf p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.inter {
+color: gray;
+}
+.origen {
+    color: red;
+}
+.mañana {
+    color: #FFFFFF;
+    
+}
+.matrix{
+    color: rgb(85, 142, 28);
+}
+.blade{
+    color: white;
+}
+/* ACCION */
+.acc h3 {
+    font-size: 30px; /* Tamaño de fuente para el título */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+.jjk0 {
+    color: #000000;
+
+}
+.soldado {
+    color:#1a90cf;
+
+}
+.batman {
+    color: #ffffff;
+
+}
+.infinity{
+    color: orange;
+
+}
+.endgame{
+    color: purple;
+}
+
+.acc p {
+    font-size: 16px; /* Tamaño de fuente para el texto */
+    line-height: 1.5; /* Espaciado entre líneas */
+    text-align: justify; /* Justifica el texto */
+}
+.acc img {
+    border:5px solid rgb(0, 0, 0);
+    padding: 1px;
+    width: fit-content;
+    width: 35%; /* Cambia el valor al porcentaje o píxeles que necesites */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Para tratar la imagen como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+/* COMEDIA */
+.Comedia h3 {
+    font-size: 30px; /* Tamaño de fuente para el título */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+.shrek {
+    color: #808000;
+
+}
+.nobles {
+    color: #FFD700;
+
+}
+.quepaso {
+    color: #9b1111;
+
+}
+.superbad{
+    color: red;
+}
+.anchorman{
+    color: aliceblue;
+}
+
+.Comedia img {
+    border:5px solid rgb(0, 0, 0);
+    padding: 1px;
+    width: fit-content;
+    width: 45%; /* Cambia el valor al porcentaje o píxeles que necesites */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Para tratar la imagen como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+.Comedia p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+/* ROMANCE */
+.eterno {
+    color: #FF8C00;
+}
+.robot {
+    color: #9b1111;
+}
+.summer{
+color: white;
+}
+.estrella {
+    color: rgb(39, 146, 212);
+}
+
+.romance h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.romance img {
+    border:5px solid rgb(0, 0, 0);
+    padding: 1px;
+    width: fit-content;
+    width: 45%; /* Cambia el valor al porcentaje o píxeles que necesites */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Para tratar la imagen como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+.romance p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto; /* Centrar el main */
+}
+
+
+
+
+article {
+    margin-bottom: 5px; /* Espacio entre artículos */
+}
+

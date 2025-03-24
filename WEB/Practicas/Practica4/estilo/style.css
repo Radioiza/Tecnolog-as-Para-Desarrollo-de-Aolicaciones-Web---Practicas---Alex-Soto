@@ -1,0 +1,150 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to bottom, #005e8a, #0086c3); /* Gradiente desde la imagen */
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Leyenda */
+.leyenda {
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.leyenda h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.leyenda-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.leyenda-item {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.aprobada-ord { background-color: #d9f7e3; border: 1px solid #4CAF50; } /* Verde claro */
+.aprobada-ext { background-color: #fff3cd; border: 1px solid #FFC107; } /* Amarillo claro */
+.aprobada-ets { background-color: #ffe4b5; border: 1px solid #FF9800; } /* Naranja claro */
+.aprobada-rec { background-color: #f3e5f5; border: 1px solid #9C27B0; } /* Morado claro */
+.reprobada { background-color: #fdecea; border: 1px solid #F44336; } /* Rojo claro */
+.sin-cursar { background-color: #e3f2fd; border: 1px solid #2196F3; } /* Azul claro */
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    margin: 2rem auto;
+    max-width: 1100px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.semester {
+    margin-bottom: 2rem;
+}
+
+.semester h2 {
+    color: #005e8a; /* Color que combina con el encabezado */
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Contenedor de las tarjetas */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+/* Estilo de las tarjetas */
+.card {
+    padding: 1rem;
+    text-align: center;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación al pasar el cursor */
+}
+
+/* Animación al pasar el cursor */
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* Colores por estado de materia */
+.aprobada-ord { background-color: #d9f7e3; }
+.aprobada-ext { background-color: #fff3cd; }
+.aprobada-ets { background-color: #ffe4b5; }
+.aprobada-rec { background-color: #f3e5f5; }
+.reprobada { background-color: #fdecea; }
+.sin-cursar { background-color: #e3f2fd; }
+
+/* Promedio del semestre */
+.promedio-semestre {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #005e8a; /* Verde oscuro */
+    margin-top: 1rem;
+}
+
+/* Promedio final de la carrera */
+.promedio-final {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #005e8a;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+}
+/* Separador entre semestres */
+.semester {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #ddd; /* Línea divisoria */
+}
+
+.semester:last-child {
+    border-bottom: none; /* Elimina la línea en el último semestre */
+}
